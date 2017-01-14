@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#42434f"
+    android:orientation="vertical"
+    tools:context="com.jaaaelu.gzw.animapp.MainActivity">
+
+    <include layout="@layout/include_toolbar"/>
+
+    <Button
+        android:id="@+id/btn_anim_demo_by_xml"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_with_ripple"
+        android:text="视同动画By Xml"
+        android:textColor="#FFF"/>
+
+    <Button
+        android:id="@+id/btn_anim_demo_by_java"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_with_ripple"
+        android:text="视同动画By JavaCode"
+        android:textColor="#FFF"/>
+
+    <Button
+        android:id="@+id/btn_anim_fly"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_with_ripple"
+        android:text="简单的组合动画"
+        android:textColor="#FFF"/>
+
+    <Button
+        android:id="@+id/btn_anim_interpolator"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_with_ripple"
+        android:text="插值器运用"
+        android:textColor="#FFF"/>
+
+    <Button
+        android:id="@+id/btn_anim_frame"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_with_ripple"
+        android:text="帧动画"
+        android:textColor="#FFF"/>
+
+</LinearLayout>

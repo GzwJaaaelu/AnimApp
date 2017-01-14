@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#42434f"
+    android:orientation="vertical"
+    tools:context="com.jaaaelu.gzw.animapp.MainActivity">
+
+    <include layout="@layout/include_toolbar"/>
+
+    <Button
+        android:id="@+id/btn_animation"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_with_ripple"
+        android:text="视图动画"
+        android:textColor="#FFF"/>
+
+    <Button
+        android:id="@+id/btn_animator"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_with_ripple"
+        android:text="属性动画"
+        android:textColor="#FFF"/>
+
+</LinearLayout>
