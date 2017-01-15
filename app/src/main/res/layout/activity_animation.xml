@@ -5,7 +5,7 @@
     android:id="@+id/activity_animation"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#42434f"
+    android:background="#eee"
     tools:context="com.jaaaelu.gzw.animapp.anim.AnimationByXmlActivity">
 
     <include layout="@layout/include_toolbar"/>
@@ -15,7 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:src="@drawable/ic_fingerprint_white"/>
+        android:src="@drawable/ic_fingerprint_black"/>
 
     <LinearLayout
         android:layout_width="match_parent"

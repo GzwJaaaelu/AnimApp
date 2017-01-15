@@ -21,8 +21,6 @@
 
         <activity android:name=".anim.AnimationByCodeActivity"/>
 
-        <activity android:name=".animator.AnimatorActivity"/>
-
         <activity android:name=".anim.AnimationFlyActivity"/>
 
         <activity android:name=".anim.AnimationListActivity"/>
@@ -30,6 +28,12 @@
         <activity android:name=".anim.AnimationInterpolatorActivity"/>
 
         <activity android:name=".anim.AnimationFrameActivity"/>
+
+        <activity android:name=".animator.AnimatorListActivity"/>
+
+        <activity android:name=".animator.AnimatorByCodeActivity"/>
+
+        <activity android:name=".animator.AnimatorSetActivity"/>
     </application>
 
 </manifest>

@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.jaaaelu.gzw.animapp.anim.AnimationListActivity;
-import com.jaaaelu.gzw.animapp.animator.AnimatorActivity;
+import com.jaaaelu.gzw.animapp.animator.AnimatorListActivity;
 import com.jaaaelu.gzw.animapp.base.BaseActivity;
 
 import butterknife.BindView;
@@ -43,7 +43,7 @@ public class MainActivity extends BaseActivity {
                 startActivity(new Intent(this, AnimationListActivity.class));
                 break;
             case R.id.btn_animator:
-//                startActivity(new Intent(this, AnimatorActivity.class));
+                startActivity(new Intent(this, AnimatorListActivity.class));
                 break;
         }
     }

@@ -18,61 +18,61 @@
         android:src="@drawable/ic_fingerprint_black"/>
 
     <Button
-        android:id="@+id/btn_start_animator_add_property"
+        android:id="@+id/btn_start_animator_set"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="30dp"
         android:background="@drawable/btn_with_ripple"
-        android:text="添加属性"
+        android:text="组合"
         android:textColor="#FFF"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@id/btn_start_animator_add_property"
+        android:layout_above="@id/btn_start_animator_set"
         android:layout_marginBottom="16dp"
         android:layout_marginLeft="9dp"
         android:layout_marginRight="9dp">
 
         <Button
-            android:id="@+id/btn_start_animator_alpha"
+            android:id="@+id/btn_start_animator_parallel_one"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginRight="9dp"
             android:layout_weight="1"
             android:background="@drawable/btn_with_ripple"
-            android:text="渐变动画"
+            android:text="并行1"
             android:textColor="#fff"/>
 
         <Button
-            android:id="@+id/btn_start_animator_translation"
+            android:id="@+id/btn_start_animator_parallel_two"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginRight="9dp"
             android:layout_weight="1"
             android:background="@drawable/btn_with_ripple"
-            android:text="平移动画"
+            android:text="并行2"
             android:textColor="#fff"/>
 
         <Button
-            android:id="@+id/btn_start_animator_scale"
+            android:id="@+id/btn_start_animator_parallel_three"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginRight="9dp"
             android:layout_weight="1"
             android:background="@drawable/btn_with_ripple"
-            android:text="缩放动画"
+            android:text="并行3"
             android:textColor="#fff"/>
 
         <Button
-            android:id="@+id/btn_start_animator_rotate"
+            android:id="@+id/btn_start_animator_serial"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@drawable/btn_with_ripple"
-            android:text="旋转动画"
+            android:text="串行"
             android:textColor="#fff"/>
 
     </LinearLayout>
