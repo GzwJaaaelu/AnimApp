@@ -36,7 +36,7 @@ public class MainActivity extends BaseActivity {
 
     }
 
-    @OnClick({R.id.btn_animation, R.id.btn_animator})
+    @OnClick({R.id.btn_animation, R.id.btn_animator, R.id.btn_test_snackbar})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.btn_animation:
@@ -44,6 +44,9 @@ public class MainActivity extends BaseActivity {
                 break;
             case R.id.btn_animator:
                 startActivity(new Intent(this, AnimatorListActivity.class));
+                break;
+            case R.id.btn_test_snackbar:
+                startActivity(new Intent(this, SnackbarTestActivity.class));
                 break;
         }
     }

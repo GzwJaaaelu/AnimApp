@@ -16,24 +16,21 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-
         <activity android:name=".anim.AnimationByXmlActivity"/>
-
         <activity android:name=".anim.AnimationByCodeActivity"/>
-
         <activity android:name=".anim.AnimationFlyActivity"/>
-
         <activity android:name=".anim.AnimationListActivity"/>
-
         <activity android:name=".anim.AnimationInterpolatorActivity"/>
-
         <activity android:name=".anim.AnimationFrameActivity"/>
-
         <activity android:name=".animator.AnimatorListActivity"/>
-
         <activity android:name=".animator.AnimatorByCodeActivity"/>
-
         <activity android:name=".animator.AnimatorSetActivity"/>
+        <activity android:name=".animator.AnimatorOtherActivity">
+        </activity>
+        <activity android:name=".SnackbarTestActivity">
+        </activity>
+        <activity android:name=".animator.AnimatorLayoutActivity">
+        </activity>
     </application>
 
 </manifest>

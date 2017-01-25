@@ -60,8 +60,10 @@ public class AnimatorListActivity extends BaseActivity {
                 startActivity(new Intent(this, AnimatorSetActivity.class));
                 break;
             case R.id.btn_animator_other:
+                startActivity(new Intent(this, AnimatorOtherActivity.class));
                 break;
             case R.id.btn_animator_layout:
+                startActivity(new Intent(this, AnimatorLayoutActivity.class));
                 break;
         }
     }

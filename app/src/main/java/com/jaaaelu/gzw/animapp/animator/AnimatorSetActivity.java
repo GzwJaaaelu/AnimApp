@@ -98,7 +98,7 @@ public class AnimatorSetActivity extends BaseActivity {
                 PropertyValuesHolder rotateProperty = PropertyValuesHolder.ofFloat("rotation", 0, 360);
                 PropertyValuesHolder scaleXProperty = PropertyValuesHolder.ofFloat("scaleX", 1, 2);
                 PropertyValuesHolder scaleYProperty = PropertyValuesHolder.ofFloat("scaleY", 1, 2);
-                alpha = alpha.ofPropertyValuesHolder(mAnimatorTarget, rotateProperty, scaleXProperty, scaleYProperty);
+                alpha = ObjectAnimator.ofPropertyValuesHolder(mAnimatorTarget, rotateProperty, scaleXProperty, scaleYProperty);
                 alpha.setDuration(1800);
                 alpha.start();
                 break;

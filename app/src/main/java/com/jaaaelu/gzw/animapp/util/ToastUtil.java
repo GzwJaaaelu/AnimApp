@@ -58,6 +58,19 @@ public class ToastUtil {
         }
     }
 
+    private static void showToast(View view, CharSequence msg,
+                                  int duration) {
+        context = MyApplication.getContext();
+        ToastUtil.view = view;
+        try {
+            getToast(context);
+            toast.setText(msg);
+            toast.setDuration(duration);
+            toast.show();
+        } catch (Exception e) {
+        }
+    }
+
     private static void showToast(int resId, int duration) {
         context = MyApplication.getContext();
         try {

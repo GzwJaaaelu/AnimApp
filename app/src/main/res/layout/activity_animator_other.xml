@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_animator_other"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jaaaelu.gzw.animapp.animator.AnimatorOtherActivity">
+
+    <include layout="@layout/include_toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/btn_start_animator_count_down"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="9dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_with_ripple"
+            android:text="倒计时"
+            android:textColor="#fff"/>
+
+        <Button
+            android:id="@+id/btn_start_animator_calculator"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="9dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_with_ripple"
+            android:text="计算器"
+            android:textColor="#fff"/>
+
+        <Button
+            android:id="@+id/btn_start_animator_key_frame"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="9dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_with_ripple"
+            android:text="关键帧"
+            android:textColor="#fff"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_show_count_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"/>
+
+    <ImageView
+        android:id="@+id/iv_animator_target"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/ic_fingerprint_black"/>
+
+</LinearLayout>
