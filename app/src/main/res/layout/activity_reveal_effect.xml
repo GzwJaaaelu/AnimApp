@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <include layout="@layout/include_toolbar"/>
+
+    <GridLayout
+        android:id="@+id/box_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/grid_stroke"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:columnCount="2"
+        android:padding="16dp"
+        android:rowCount="2">
+
+        <View
+            android:id="@+id/red_box"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="@dimen/box_half_gap"
+            android:layout_marginRight="@dimen/box_half_gap"
+            android:background="@android:color/holo_red_light"/>
+
+        <View
+            android:id="@+id/green_box"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size"
+            android:layout_marginBottom="@dimen/box_half_gap"
+            android:layout_marginLeft="@dimen/box_half_gap"
+            android:background="@android:color/holo_green_light"/>
+
+
+        <View
+            android:id="@+id/blue_box"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size"
+            android:layout_marginRight="@dimen/box_half_gap"
+            android:layout_marginTop="@dimen/box_half_gap"
+            android:background="@android:color/holo_blue_light"/>
+
+        <View
+            android:id="@+id/purple_box"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size"
+            android:layout_alignLeft="@id/green_box"
+            android:layout_marginLeft="@dimen/box_half_gap"
+            android:layout_marginTop="@dimen/box_half_gap"
+            android:background="@android:color/holo_purple"/>
+
+    </GridLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="36dp"
+        android:text="      色块显示时点击单个色块会有不同效果， 色块消失后点击边框内使得色块再次显示出来..."/>
+</LinearLayout>

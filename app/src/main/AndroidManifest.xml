@@ -23,6 +23,7 @@
         <activity android:name=".anim.AnimationInterpolatorActivity"/>
         <activity android:name=".anim.AnimationFrameActivity"/>
         <activity android:name=".animator.AnimatorListActivity"/>
+        <activity android:name=".animator.AnimatorByXmlActivity"/>
         <activity android:name=".animator.AnimatorByCodeActivity"/>
         <activity android:name=".animator.AnimatorSetActivity"/>
         <activity android:name=".animator.AnimatorOtherActivity">
@@ -30,6 +31,14 @@
         <activity android:name=".SnackbarTestActivity">
         </activity>
         <activity android:name=".animator.AnimatorLayoutActivity">
+        </activity>
+        <activity android:name=".MDAnim.RippleActivity">
+        </activity>
+        <activity android:name=".MDAnim.MDAnimListActivity">
+        </activity>
+        <activity android:name=".MDAnim.RevealEffectActivity">
+        </activity>
+        <activity android:name=".MDAnim.PathAnimationActivity">
         </activity>
     </application>
 

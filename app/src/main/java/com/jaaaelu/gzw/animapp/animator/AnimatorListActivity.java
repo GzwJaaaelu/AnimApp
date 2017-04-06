@@ -52,6 +52,8 @@ public class AnimatorListActivity extends BaseActivity {
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.btn_animator_by_xml:
+                startActivity(new Intent(this, AnimatorByXmlActivity.class));
+                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
                 break;
             case R.id.btn_animator_by_java:
                 startActivity(new Intent(this, AnimatorByCodeActivity.class));

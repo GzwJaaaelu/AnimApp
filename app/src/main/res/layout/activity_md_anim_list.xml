@@ -12,43 +12,34 @@
     <include layout="@layout/include_toolbar"/>
 
     <Button
-        android:id="@+id/btn_animation"
+        android:id="@+id/btn_md_anim_feedback"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="30dp"
         android:background="@drawable/btn_with_ripple"
-        android:text="视图动画"
+        android:text="触摸反馈"
         android:textColor="#FFF"/>
 
     <Button
-        android:id="@+id/btn_animator"
+        android:id="@+id/btn_md_reveal_effect"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="30dp"
         android:background="@drawable/btn_with_ripple"
-        android:text="属性动画"
+        android:text="揭露效果"
         android:textColor="#FFF"/>
 
     <Button
-        android:id="@+id/btn_test_snackbar"
+        android:id="@+id/btn_md_path_anim"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="30dp"
         android:background="@drawable/btn_with_ripple"
-        android:text="Snackbar 测试"
-        android:textColor="#FFF"/>
-
-    <Button
-        android:id="@+id/btn_md_anim"
-        android:layout_width="180dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="30dp"
-        android:background="@drawable/btn_with_ripple"
-        android:text="Material Design Animation"
-        android:textColor="#FFF"/>
+        android:text="曲线运动"
+        android:textColor="#FFF"
+        android:visibility="gone"/>
 
 </LinearLayout>
